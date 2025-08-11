@@ -15,3 +15,5 @@ obj/
 
 # Rider / JetBrains
 .idea/
+
+.vscode/
