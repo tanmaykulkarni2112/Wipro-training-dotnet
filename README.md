@@ -33,3 +33,8 @@ public | anywhere, no restriction
 protected | Within the containing types, and the types derived from the containing type
 internal | anywhere within the containing assembly
 protected internally | anywhere within the containing assembly and from within a dervied class in any another assembly
+
+
+abstraction 
+private constructor
+interface
