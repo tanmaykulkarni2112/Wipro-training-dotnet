@@ -1,19 +1,49 @@
-# Ignore build output
+# =========================
+# .NET build artifacts
+# =========================
 bin/
 obj/
 
-# Ignore user-specific files and folders
+# =========================
+# Visual Studio
+# =========================
 .vs/
 *.user
 *.suo
-
-# Ignore temporary and IDE files
-*.log
-*.tmp
 *.userosscache
 *.sln.docstates
 
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
 # Rider / JetBrains
+# =========================
 .idea/
 
-.vscode/
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Coverage / test output (future-proofing)
+# =========================
+TestResults/
+coverage/
+coverage.*
+
+# =========================
+# NuGet
+# =========================
+packages/
+*.nupkg
